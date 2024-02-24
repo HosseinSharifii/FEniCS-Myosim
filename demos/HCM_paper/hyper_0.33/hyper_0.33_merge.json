@@ -246,15 +246,15 @@
         {
             "stress_type":["total_stress"],
             "law":["new_stress_kroon"],
-            "time_constant":[15],
+            "time_constant":[30],
             "reorient_t_start":[0.5,"ms"]
         }
         
     },
     "output_handler":
     {
-        "output_data_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/hyer_0.3_kappa15_k1.8_coef_deg1_max90/data.csv"],
-        "mesh_output_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/hyer_0.3_kappa15_k1.8_coef_deg1_max90/mesh_output"],
+        "output_data_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/hyer_0.3_kappa30_k1.8_coef_deg1_max90/data.csv"],
+        "mesh_output_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/hyer_0.3_kappa30_k1.8_coef_deg1_max90/mesh_output"],
         "mesh_object_to_save":
         [
             "displacement",

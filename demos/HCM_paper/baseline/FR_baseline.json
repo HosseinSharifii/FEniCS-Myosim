@@ -240,15 +240,15 @@
         {
             "stress_type":["total_stress"],
             "law":["new_stress_kroon"],
-            "time_constant":[15]
+            "time_constant":[30]
             
         }
         
     },
     "output_handler":
     {
-        "output_data_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/baseline_kappa15_coef_deg1_max90/data.csv"],
-        "mesh_output_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/baseline_kappa15_coef_deg1_max90/mesh_output"],
+        "output_data_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/baseline_kappa30_coef_deg1_max90/data.csv"],
+        "mesh_output_path": ["/project/jfwe223_uksr/Mohammad_data/HCM_paper2/baseline_kappa30_coef_deg1_max90/mesh_output"],
         "mesh_object_to_save":
         [
             "displacement",
